@@ -33,3 +33,12 @@ Example:
 
 2 -eq 5
 # Returns $false
+
+###Strings
+
+- `$HOME` references the home directory (current user).
+- Single quotes are used for literal text.
+- Double quotes are used when you want to include expressions and variables.
+- If a variable doesn't exist, PowerShell will replace it with nothing when it encounters it inside a string.
+- A colon (`:`) is commonly used with scope modifiers and variable providers.
+- Strings are a series of character values (`[char]`).
